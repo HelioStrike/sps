@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'JoystixMonospace-Regular';
+  src: url('JoystixMonospace-Regular.svg#JoystixMonospace-Regular') format('svg'),
+       url('JoystixMonospace-Regular.ttf') format('truetype'),
+       url('JoystixMonospace-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'joystix monospace';
+  src: url('joystix monospace.eot');
+  src: url('joystix monospace.eot?#iefix') format('embedded-opentype'),
+       url('joystix monospace.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

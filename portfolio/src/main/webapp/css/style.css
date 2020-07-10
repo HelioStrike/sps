@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+/*
+Used to create a container covering the entire screen
+*/
+.cover {
+  width: 100%;
+  height: 100vh;
+  vertical-align:top;
+}
+
+/*
+Makes container fill the width.
+*/
+.section {
+  width: 100%;
+}
+
+/*
+Inverts the standard black-and-white colors.
+*/
+.inv-container {
+  color: white;
+  background-color: #6700e7;
+}
+
+/*
+Centers the contents of a div
+*/
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*
+Container with some extra vertical spacing.
+*/
+.container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/*
+Image in the cover div.
+*/
+.cover-image {
+  width: 15%;
+  border-radius: 200px;
+}
+
+/*
+Name in the cover div.
+*/
+.cover-name {
+  font-size: 80px;
+  font-family: 'invasion2000';
+}
+
+/*
+Standard game text.
+*/
+.game-text {
+  font-family: 'joystix';
+}
+
+/*
+Makes image cover the entire width.
+*/
+.image-cover {
+  width: 100%;
+}
+
+/*
+Heading font size.
+*/
+.heading {
+  font-size: 40px;
+}
+
+/*
+Sub-heading font size.
+*/
+.subheading {
+  font-size: 28px;
+}
+
+/*
+Regular font size.
+*/
+.regular {
+  font-size: 20px;
+}
+
+/*
+Creates some vertical space.
+*/
+.space {
+  padding-top: 4%;
+  width: 100%;
+}
+
+/*
+Rounds corners a little
+*/
+.round-corners {
+  border-radius: 16px;
+}
+
+/*
+Styling for social icons
+*/
+.social-icon {
+  color: white;
+  font-size: 32px;
+  padding: 8px;
+  transition: 0.4s;
+}

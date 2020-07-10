@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'invasion2000';
+  src: url('../fonts/invasion2000/invasion2000.eot');
+  src: url('../fonts/invasion2000/invasion2000.woff2') format('woff2'),
+        url('../fonts/invasion2000/invasion2000.woff') format('woff'),
+        url('../fonts/invasion2000/invasion2000.ttf') format('truetype'),
+        url('../fonts/invasion2000/invasion2000.svg#invasion2000') format('svg'),
+        url('../fonts/invasion2000/invasion2000.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'joystix';
+  src: url('../fonts/joystix/joystix\ monospace.eot');
+  src: url('../fonts/joystix/joystix\ monospace.woff2') format('woff2'),
+        url('../fonts/joystix/joystix\ monospace.woff') format('woff'),
+        url('../fonts/joystix/joystix\ monospace.ttf') format('truetype'),
+        url('../fonts/joystix/joystix\ monospace.svg#invasion2000') format('svg'),
+        url('../fonts/joystix/joystix\ monospace.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
