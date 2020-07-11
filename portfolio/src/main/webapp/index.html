@@ -2,17 +2,129 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>Sai Sandeep</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
   </head>
   <body>
+
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+
+      <div class="cover center-content inv-container">
+        <img class="cover-image" src="images/me/me.png" />
+        <h1 class="cover-name">Sai Sandeep</h1>
+      </div>
+
+      <div class="section">
+        <div class="ui container center-content">
+          <p class="heading game-text">Hey, I'm Sandeep!</p>
+          <div class="ui stackable grid">
+            <div class="eight wide column regular">
+              <div class="space"></div>
+              <div class="space"></div>
+              I work with a lot of things,
+              <ul>
+                <li>Web development</li>
+                <li>Android App development</li>
+                <li>Some Game dev</li>
+                <li>A bit of Data science and ML/DL</li>
+                <li>Occasional Competitive Programming</li>
+              </ul>
+            </div>
+            <div class="eight wide column"><img class="image-cover" src="images/me/me2.jpg" /></div>          
+          </div>  
+        </div>  
+      </div>
+
+      <div class="section inv-container">
+        <div class="ui container center-content">
+          <p class="heading game-text">Lately, I've been trying to learn how to play the guitar, and learn some Mandarin.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="ui container center-content">
+          <p class="heading game-text">Here's some interesting work of mine.</p>
+          <div class="ui stackable grid">
+            <div class="eight wide column regular">
+              <div class="space"></div>
+              <a href="https://wiki.openmrs.org/display/projects/Atlas+3.1+Project" target="_blank"><b class="subheading">OpenMRS Atlas 3.1 Project</b></a>
+              <div class="space"></div>
+              <p class="Regular">
+                I worked on converting OpenMRS Atlas, which was written in PHP, into Node. I wrote most of the backend
+                for the website, and added a bunch of new features, including an RSS feed, an admin page, etc.
+              </p>
+            </div>
+            <div class="eight wide column"><img class="image-cover" src="images/projects/openmrs-atlas.png" /></div>          
+          </div>  
+
+          <div class="space"></div>
+
+          <div class="ui stackable grid">
+            <div class="eight wide column"><img class="image-cover" src="images/projects/notes-maker.png" /></div>          
+            <div class="eight wide column regular">
+              <div class="space"></div>
+              <a href="https://github.com/HelioStrike/handwritten-notes-maker" target="_blank"><b class="subheading">Hand-written Notes Maker</b></a>
+              <div class="space"></div>
+              <p class="Regular">
+                It is a python module to create notes that look hand-written. I made this because of the frequent
+                written homework assignments following the initial COVID-19 lockdown orders.
+              </p>
+            </div>
+          </div>  
+
+          <div class="space"></div>
+
+          <div class="ui stackable grid">
+            <div class="eight wide column regular">
+              <div class="space"></div>
+              <a href="https://github.com/HelioStrike/LIDAR-VR" target="_blank"><b class="subheading">LIDAR Renderer</b></a>
+              <div class="space"></div>
+              A simple LIDAR point cloud renderer built using Unity.
+            </div>
+            <div class="eight wide column"><img class="image-cover" src="images/projects/lidar-renderer.png" /></div>          
+          </div>          
+        </div>
+      </div>
+
+      <div class="section inv-container">
+        <div class="ui container center-content">
+          <p class="heading game-text">I play video games on weekends.</p>
+        </div>  
+      </div>
+
+      <div class="section">
+        <div class="ui container center-content">
+          <p class="heading game-text">Some of my doodles.</p>
+          <div class="ui stackable grid">
+            <div class="ui row">
+              <div class="five wide column"><img src="images/doodles/reaper1.png" /></div>
+              <div class="five wide column"><img src="images/doodles/frisk1.png" /></div>
+              <div class="five wide column"><img src="images/doodles/gungeon1.png" /></div>
+            </div>
+            <div class="ui row">
+              <div class="five wide column"><img src="images/doodles/desert1.png" /></div>
+              <div class="five wide column"><img src="images/doodles/turniphead2.png" /></div>
+              <div class="five wide column"><img src="images/doodles/hollowcate.png" /></div>
+            </div>
+          </div>  
+        </div>  
+      </div>
+
+      <div class="section inv-container">
+        <div class="ui container center-content">
+          <p class="heading game-text">Thank you for playing :)</p>
+          <div class="ui row">
+            <a href="https://github.com/heliostrike/" target="_blank"><i class="fa fa-github social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/sai-sandeep-mutyala/" target="_blank"><i class="fa fa-linkedin social-icon"></i></a>              
+          </div>
+        </div>
+      </div>
+
     </div>
+
   </body>
 </html>
