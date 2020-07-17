@@ -116,8 +116,14 @@ Rounds corners a little
 Styling for social icons
 */
 .social-icon {
-  color: white;
   font-size: 32px;
   padding: 8px;
   transition: 0.4s;
+}
+
+/*
+Makes test white
+*/
+.white {
+    color: white;
 }
